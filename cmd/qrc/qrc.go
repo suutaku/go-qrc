@@ -68,5 +68,5 @@ func main() {
 		text = string(text_bytes)
 	}
 
-	qrc.ShowRQ(text, false)
+	qrc.ShowQR(text, false)
 }

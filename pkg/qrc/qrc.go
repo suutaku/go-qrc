@@ -8,7 +8,7 @@ import (
 	"github.com/qpliu/qrencode-go/qrencode"
 )
 
-func ShowRQ(text string, inverse bool) error {
+func ShowQR(text string, inverse bool) error {
 	grid, err := qrencode.Encode(text, qrencode.ECLevelL)
 	if err != nil {
 		return err
